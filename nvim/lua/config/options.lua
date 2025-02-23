@@ -32,6 +32,7 @@ vim.opt.splitright = true -- Put new windows right of current
 vim.opt.splitkeep = "cursor"
 vim.opt.mouse = ""
 vim.g.snacks_animate = false
+vim.lsp.set_log_level("off")
 
 -- Undercurl
 vim.cmd([[let &t_Cs = "\e[4:3m"]])
